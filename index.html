@@ -4,22 +4,39 @@
 	<title>UC Berkeley WiSE</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width-device-width, initial-scale=1.0">
-	<link href="css/bootstrap.css" rel="stylesheet"/ type="text/css">
-	<link href="css/bootstrap-responsive.css" rel="stylesheet" type="text/css">
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 	<!--Header (Logo, Title, UC Berkeley)-->
 	<header>
-		<div>
+		<div class="jumbotron">
+			<img src="http://placehold.it/1300x275">
 		</div>
 	</header>
 	<!--Navigation Bar: Home, About Us, Events, Members, Conference, Contact Us-->
-	<section>
-		<div>
-			<nav class = "navbar">
-				<div class="navbar-inner">
-				</div>
-			</nav>
+	<section id="nav">
+		<div class="container-fluid">
+		  <div class="navbar navbar-inverse">
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+			  <a class="navbar-brand" href="#">WiSE Website</a>
+			</div>
+			<div class="navbar-collapse collapse">
+			  <ul class="nav navbar-nav" id="navbarelements">
+				<li class="active"><a href="index.html">Home</a></li>
+				<li class="active"><a href="index.html">About Us</a></li>
+				<li class="active"><a href="index.html">Events</a></li>
+				<li class="active"><a href="index.html">Members</a></li>
+				<li class="active"><a href="index.html">Conference</a></li>
+				<li class="active"><a href="index.html">Contact Us</a></li>
+			  </ul>
+			</div>
+		  </div>
 		</div>
 	</section>
 	<!--Upcoming Events in the left side-->
@@ -32,11 +49,5 @@
 	<section>
 	</section>
 
-	<script src="js/bootstrap.js"></script>
-	<footer>
-		<p>Copyright &copy; 2013 UC Berkeley WiSE</p>
-	</footer>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.js"></script>
 </body>
 </html>
