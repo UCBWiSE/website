@@ -3,14 +3,30 @@
 	padding: 0;
 }
 .jumbotron {
-	height: 275px;
+	height: 200px;
 	padding: 0;
 	margin: 0;
+	background-color: #8868E8;
+}
+#logo{
+	margin-left: 20px;
+	margin-top: 10px;
+	margin-bottom: 0;
 }
 #nav{
 	margin: 0;
 	padding: 0;
 	width: 100%;
+}
+.navbar-brand{
+	margin-right: 30px;
+	margin-left: 30px;
+}
+#selecteditem{
+	color: #68C8E8;
+	margin: 0px;
+	padding: 0px;
+
 }
 li{
 	margin-right: 2px;
