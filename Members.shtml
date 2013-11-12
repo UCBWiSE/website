@@ -1,9 +1,25 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <!--#include virtual="header_footer/template.html"-->
+<head>
+	<title>UC Berkeley WiSE</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width-device-width, initial-scale=1.0">
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="style.css" rel="stylesheet" type="text/css">
+</head>
 <body>
 	<div class="page-header">
 		<h1 id="hptitle">Members</h1>
+	</div>
+	<div class="panel panel-default">
+		<div class="panel-footer" id="bodytext">
+			<h2>How to Apply</h2>
+			<h3>Any female student who holds a strong interest in math, science, and engineering is encouraged to apply. You must complete the UC Berkeley housing application by the deadline. On the online application Theme Program page, select WiSE from the drop-down menu; at a prompt, you'll also be asked to write a short essay. The housing contract you receive will indicate if you have been selected to the Theme Program.
+
+			If you have additional questions that are not answered here, you can call 510/642-3213.
+			</h3>
+		</div>
 	</div>
 	<script src="assets/js/jquery.js"></script>
 	<script src="dist/js/bootstrap.min.js"></script>

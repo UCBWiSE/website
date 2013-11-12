@@ -1,9 +1,23 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <!--#include virtual="header_footer/template.html"-->
+<head>
+	<title>UC Berkeley WiSE</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width-device-width, initial-scale=1.0">
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="style.css" rel="stylesheet" type="text/css">
+</head>
 <body>
 	<div class="page-header">
 		<h1 id="hptitle">Events</h1>
+	</div>
+	<div class="panel panel-default">
+		<div class="panel-footer" id="bodytext">
+			<h2>Seminars and Events</h2>
+			<h3>The seminar is a 2-unit pass/no pass class that meets once a week in the residence hall during the evening. You can review a sample course syllabus to get an idea about the coursework and expectations. If you’re admitted to WiSE, you will be given more information about how to enroll in the class. Events include a wide variety of leadership and community-building activities like dinners with faculty, study groups, on-site tutoring, mentoring, and field trips.
+			</h3>
+		</div>
 	</div>
 	<script src="assets/js/jquery.js"></script>
 	<script src="dist/js/bootstrap.min.js"></script>
