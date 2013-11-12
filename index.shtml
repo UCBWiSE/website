@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <html lang="en">
-<!--#include virtual="/header_footer/template.html"-->
+<!--#include virtual="\header_footer\template.html"-->
 <body>
 	<div class="page-header">
 		<h1 id="hptitle">Welcome to WiSE!<small>  Foothill Theme Program</small></h1>
