@@ -6,12 +6,7 @@
 	height: 200px;
 	padding: 0;
 	margin: 0;
-	background-color: #8868E8;
-}
-#logo{
-	margin-left: 20px;
-	margin-top: 10px;
-	margin-bottom: 0;
+	background: url("http://placehold.it/1000x175");
 }
 #nav{
 	margin: 0;
@@ -19,15 +14,45 @@
 	width: 100%;
 }
 .navbar-brand{
-	margin-right: 30px;
-	margin-left: 30px;
+	margin-right: 80px;
+	margin-left: 80px;
+}
+#navbarelements ul{
+	background-color: green;
+	margin: 0;
+	padding: 0;
+}
+#navbarelements li{
+	background-color: green;
 }
 #selecteditem{
 	color: #68C8E8;
 	margin: 0px;
 	padding: 0px;
-
 }
-li{
-	margin-right: 2px;
+#upcoming-events{
+	width: 250px;
+	margin-left: 40px;
+}
+.panel{
+	background-color: black;
+}
+.panel-heading{
+	color: white;
+}
+#middlesection{
+	
+}
+#upcomingevents{
+	float: left;
+	margin-top: 50px;
+}
+#slidingpictures{
+	margin-left: 500px;
+}
+.page-header{
+	text-align: center;
+}
+#hptitle{
+	font-weight: bold;
 }
