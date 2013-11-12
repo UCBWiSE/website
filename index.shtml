@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<title>UC Berkeley WiSE</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width-device-width, initial-scale=1.0">
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<!--#include virtual="/header_footer/template.html"-->
+<body>
+	<div class="page-header">
+		<h1 id="hptitle">Welcome to WiSE!<small>  Foothill Theme Program</small></h1>
+	</div>
+	<section id="middlesection">
+		<!--Upcoming Events in the left side-->
+		<section id="upcomingevents">
+			<div class="panel" id="upcoming-events">
+			  <!-- Default panel contents -->
+				<div class="panel-heading">Upcoming Events</div>
+			  <!-- List group -->
+				<ul class="list-group">
+					<li class="list-group-item"><a href="#">Therapy Thursday</a></li>
+					<li class="list-group-item"><a href="#">Community Development Activity</a></li>
+					<li class="list-group-item"><a href="#">Community Meeting</a></li>
+					<li class="list-group-item"><a href="#">Conference</a></li>
+				</ul>
+			</div>
+		</section>
+		<section id="slidingpictures">
+			<p>Carousel</p>
+			<img src="http://placehold.it/500x300">
+		</section>
+	</section>
+	<!--Short version of About Us beneath Pictures-->
+	<section>
+	</section>
+	<script src="assets/js/jquery.js"></script>
+	<script src="dist/js/bootstrap.min.js"></script>
+</body>
+</html>
