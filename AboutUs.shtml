@@ -1,11 +1,24 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <!--#include virtual="header_footer/template.html"-->
+<head>
+	<title>UC Berkeley WiSE</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width-device-width, initial-scale=1.0">
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="style.css" rel="stylesheet" type="text/css">
+</head>
 <body>
 	<div class="page-header">
 		<h1 id="hptitle">About Us</h1>
 	</div>
+	<div class="panel panel-default">
+		<div class="panel-footer" id="bodytext">
+			<h3>The Women in Science and Engineering Theme Program began in 1999 as a place for women to explore their interest in math, science, and engineering alongside peers. A live-in Theme Program Assistant provides resources and support for residents' social and academic needs. Our academic seminar includes learning from faculty and peers, mixed with career advising tailored to math, science, and engineering work. Continuing WiSE students can become mentors for new residents. Residents participate in socials, community outreach and activities, and have meaningful interaction with faculty and staff. WiSE students have fun, grow as women and as leaders, and form friendships that can last a lifetime.</h3>
+		</div>
+	</div>
 	<script src="assets/js/jquery.js"></script>
 	<script src="dist/js/bootstrap.min.js"></script>
 </body>
+<!--#include virtual="header_footer/footer.html"-->
 </html>

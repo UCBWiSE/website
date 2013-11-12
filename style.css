@@ -25,11 +25,6 @@
 #navbarelements li{
 	background-color: green;
 }
-#selecteditem{
-	color: #68C8E8;
-	margin: 0px;
-	padding: 0px;
-}
 #upcoming-events{
 	width: 250px;
 	margin-left: 40px;
@@ -55,4 +50,9 @@
 }
 #hptitle{
 	font-weight: bold;
+}
+#bodytext{
+	width: 900px;
+	text-align: center;
+	margin-left: 200px;
 }

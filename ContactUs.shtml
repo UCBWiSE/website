@@ -8,4 +8,5 @@
 	<script src="assets/js/jquery.js"></script>
 	<script src="dist/js/bootstrap.min.js"></script>
 </body>
+<!--#include virtual="header_footer/footer.html"-->
 </html>
