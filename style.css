@@ -8,6 +8,10 @@
 	margin: 0;
 	background: url("http://placehold.it/1000x175");
 }
+#logo {
+	width: 175px;
+	height: 175px;
+}
 #nav{
 	margin: 0;
 	padding: 0;
